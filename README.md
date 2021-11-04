@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Dependencias 
+
+ - [enzyme-to-json](https://www.npmjs.com/package/enzyme-to-json)
+    `npm install --save-dev enzyme-to-json`
+
+ - [Enzyme](https://enzymejs.github.io/enzyme/)
+    `npm i --save-dev enzyme enzyme-adapter-react-16`

@@ -7,20 +7,22 @@ const state = {
 }
 */
 
-export const authReducer = (state = {}, action)=> {
+export const authReducer = (state = {}, action ) => {
 
-    switch (action.type){
+    switch ( action.type ) {
         case types.login:
-            return{
+            return {
                 ...action.payload,
                 logged: true
             }
+
         case types.logout:
-            return{
+            return {
                 logged: false
             }
-
+    
         default:
-            return state
+            return state;
     }
+
 }
